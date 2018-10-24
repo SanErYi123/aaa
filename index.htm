@@ -1,0 +1,775 @@
+﻿
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="renderer" content="webkit">
+<meta name="wap-font-scale" content="no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="keywords" content="洽洽食品股份有限公司" />
+<meta name="description" content="洽洽食品股份有限公司" />
+<title>洽洽食品股份有限公司</title>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/home.css" />
+<link rel="stylesheet" href="css/jquery.fullpage.css" />
+<link rel="stylesheet" href="css/swiper.min.css" />
+<link rel="shortcut icon" href="favicon.ico">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery.superslide.2.1.1.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fullpage.min.js"></script>
+<script src="js/html5media.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<script>
+	$(function(){
+		$('#fullPage').fullpage({
+			'navigation': true,
+			// 'verticalCentered':false,
+			//'slidesNavigation':true,
+			'anchors': ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+			'menu': '#menu',
+			afterLoad:function(a,index){
+				if(index == 1) {
+					$(".head_pc").css("padding-left","50px");
+				}else{
+					$(".head_pc").css("padding-left","0");
+				}
+			}
+			//'continuousVertical':true
+		});
+	});
+	
+</script>
+<body>
+
+
+<aside class="m-nav">
+    <h2>菜单</h2>
+    <ul>
+        <li class=current><a href="./">网站首页</a></li>
+                <li><a href="info.php?class_id=101" >感受洽洽</a></li>
+                <li><a href="info.php?class_id=102" >洽洽透明工厂</a></li>
+                <li><a href="info.php?class_id=103" >洽洽产品</a></li>
+                <li><a href="info.php?class_id=104" >新闻资讯</a></li>
+                <li><a href="info.php?class_id=105" >社会责任</a></li>
+                <li><a href="info.php?class_id=106" >投资者关系</a></li>
+                <li><a href="info.php?class_id=107" >联系我们</a></li>
+                <li><a href="info.php?class_id=108" >企业招标</a></li>
+            </ul>
+</aside>
+<!--
+<div class="m-menu">
+    <dl class="site-nav">
+                            <dt ><a href="info.php?class_id=101">感受洽洽</a></dt>
+                                <dt ><a href="info.php?class_id=102">洽洽透明工厂</a></dt>
+                                <dt ><a href="info.php?class_id=103">洽洽产品</a></dt>
+                                <dt ><a href="info.php?class_id=104">新闻资讯</a></dt>
+                                <dt ><a href="info.php?class_id=105">社会责任</a></dt>
+                                <dt ><a href="info.php?class_id=106">投资者关系</a></dt>
+                                <dt ><a href="info.php?class_id=107">联系我们</a></dt>
+                                <dt ><a href="info.php?class_id=108">企业招标</a></dt>
+                        </dl>
+</div>
+--><div class="wrapper">
+	<div class="header">
+		<div class="head_pc">
+			<div class="logo"><a href="./"><img src="images/logo01.png" width="145" height="54" alt="洽洽"></a></div>
+			<div class="nav">
+				<ul>
+					<li class='current'><a href="./">
+						<span>网站首页</span>
+						<i>HOME PAGE</i>
+					</a></li>
+					<li ><a href="info.php?class_id=101">
+						<span>感受洽洽</span>
+						<i>ABOUT</i>
+					</a></li>
+					<li ><a href="info.php?class_id=102">
+						<span>洽洽透明工厂</span>
+						<i>FACTORY</i>
+					</a></li>
+					<li ><a href="info.php?class_id=103">
+						<span>洽洽产品</span>
+						<i>PRODUCTS</i>
+					</a></li>
+					<li ><a href="info.php?class_id=104">
+						<span>新闻资讯</span>
+						<i>NEWS</i>
+					</a></li>
+					<li ><a href="response.php">
+						<span>社会责任</span>
+						<i>RESPONSIBILITY</i>
+					</a></li>
+					<li ><a href="info.php?class_id=106">
+						<span>投资者关系</span>
+						<i>INVESTMENT</i>
+					</a></li>
+					<li><a target="_blank" href="https://qiaqia.world.tmall.com/">
+						<span>天猫店铺</span>
+						<i>TMALL</i>
+					</a></li>
+					<li ><a target="_blank" href="info.php?class_id=108">
+						<span>企业招标</span>
+						<i>BIDDING</i>
+					</a></li>
+					<li ><a href="contact.php">
+						<span>联系我们</span>
+						<i>CONTACT</i>
+					</a></li>
+				</ul>
+			</div>
+			<div class="tel">
+				<div class="tel01">全国统一服务热线：</div>
+				<div class="tel02">4008-877-819</div>
+			</div>
+			<div class="code01">
+				<p><img src="images/code01.jpg" width="85" height="85" alt=""></p>
+				<p>扫一扫</p>
+				<p>关注洽洽官方微信</p>
+			</div>
+		</div>
+		<div class="head_sj">
+        	<img src="images/logo01.png" height='100%' width='auto'/>
+			<div class="u-menu">
+		        <div class="u-menu-top"><i></i></div>
+		        <div class="u-menu-middle"><i></i></div>
+		        <div class="u-menu-bottom"><i></i></div>
+		    </div>
+		</div>
+	</div><div class="container">
+		<ul id="menu">
+			<li data-menuanchor="page1" class="active"><a href="#page1"></a></li>
+			<li data-menuanchor="page2"><a href="#page2"></a></li>
+			<li data-menuanchor="page3"><a href="#page3"></a></li>
+			<li data-menuanchor="page4"><a href="#page4"></a></li>
+			<li data-menuanchor="page5"><a href="#page5"></a></li>
+			<li data-menuanchor="page6"><a href="#page6"></a></li>
+		</ul>
+		<div class="pc">
+			<div id="fullPage">
+		    	<div class="section p1" data-anchor="page1">
+		    		<div class="banner">
+						<div class="bd"><a class="prev" href="javascript:void(0);"></a> <a class="next" href="javascript:void(0);"></a>
+							<ul>
+																 
+								<li><a href="" style="background-image: url(images/152203128010850500.jpg);"></a></li>
+																 
+								<li><a href="" style="background-image: url(images/151572190815625500.jpg);"></a></li>
+																 
+								<li><a href="" style="background-image: url(images/151572200226563000.jpg);"></a></li>
+																 
+								<li><a href="" style="background-image: url(images/151572204157031700.jpg);"></a></li>
+																 
+							</ul>
+						</div>
+						<div class="hd"><ul></ul></div>
+					</div>
+					<script type="text/javascript">
+						jQuery(".banner").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.8) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+						jQuery(".banner").slide({titCell:".hd ul",mainCell:".bd ul",effect:"fold",autoPlay:true,autoPage:true});
+					</script>
+                    <div class="banner02">
+                    	<div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                                            <div class="swiper-slide"><a href=""><img src="images/152203211878038200.jpg" /></a></div>
+                                                            <div class="swiper-slide"><a href=""><img src="images/151573824448438000.jpg" /></a></div>
+                                                            <div class="swiper-slide"><a href=""><img src="images/151573826295313000.jpg" /></a></div>
+                                                            <div class="swiper-slide"><a href=""><img src="images/151573826914063200.jpg" /></a></div>
+                                                        </div>
+                        </div>
+                        <script>
+                            var swiper = new Swiper('.swiper-container', {
+                                paginationClickable: true,
+                                spaceBetween: 30,
+                                loop: false
+                            });
+                        </script>
+                        <script>
+							$(".banner02").width($(window).width());
+						</script>
+                    </div>
+		    	</div>
+		    	<div class="section p2" data-anchor="page2">
+	    			<div class="page_t"><div class="page_tt"></div></div>
+	    			<div class="boxc1 clearfix">
+	    				<div class="sd"><a href="info.php?class_id=101104" onclick="play01(this);return false;"><img src="images/boxc1-01.jpg" width="398" height="206" alt=""></a></div>
+	    				<div class="mm">
+	    					<div class="mm01">洽洽文化</div>
+	    					<div class="mm02">创世界知名品牌 建世界一流企业</div>
+	    					<div class="mm03"><a href="info.php?class_id=101104">查看详情</a></div>
+	    				</div>
+                        <div class="video"><video controls src="images/qiaqia.mp4" width="600" height="400"></video><div class="close" onclick="close01(this);"><div class="close01">+</div></div></div>
+	    			</div>
+                    <script>
+                    	function close01(close01){
+							$(this).bind("click",function(){
+								$(".video").css("display","none");
+								$(".boxc1 video").trigger("pause");
+							})
+						}
+						function play01(video01){
+							$(this).bind("click",function(){
+								$(".video").css("display","block");
+								$(".boxc1 video").trigger("play");
+							});
+						}
+                    </script>
+	    			<div class="boxc2">
+	    				<div class="hd">
+	    					<ul>
+	    						<li>19个品牌 百余款产品</li>
+	    						<li>远销43个国家和地区</li>
+	    						<li>成品历经13道工序</li>
+	    					</ul>
+	    				</div>
+                        <div class="hd-i"><img src="images/aaa.png"></div>
+	    				<div class="bd">
+	    					<div class="bd01">历经十七载，每个人心里都有一个洽洽。</div>
+	    					<div class="bd02">十七年历程十七年风雨，如今的洽洽在国际的舞台上大放异彩，在资本市场里自在畅游，通过一点一滴的艰苦奋斗，努力成为一流企业！</div>
+	    				</div>
+	    			</div>
+		    	</div>
+				<div class="section p3" data-anchor="page3">
+					<div class="page_t"><div class="page_tt"></div></div>
+					<div class="boxc3">
+						<div class="boxc3_txt">
+							<h3><a href="info.php?class_id=102">阳光质造</a></h3>
+							<span><a href="info.php?class_id=102">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;洽洽在新疆、甘肃、内蒙、东北等地拥有着数百万公顷葵园，每到夏季来临的时候，万亩的向日葵争相开放，到处是娇艳的明黄色，连绵成海。置身这漫无边际的向日葵花海，就像走进了童话世界，会不自觉地面向阳光露出如向日葵般灿烂的微笑，享受这充满浪漫气息的田园风光。</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;洽洽原料基地阳光充足、昼夜温差大，向日葵能很好的进行光合作用和物质积累，产出极为饱满的葵花籽。洽洽多年致力于葵花籽全产业链的发展，不仅严选种源，采用科学的方式种植，而且整个生产过程全程监控，真正做到质量可追溯。就是这一步步的精益求精，才成就了洽洽瓜子如此好的品质和味道。</a></span>
+						</div>
+					</div>
+                    <div class="qqyd"><a href="info.php?class_id=102"><img src="images/qqyd.png"></a></div>
+				</div>
+		    	<div class="section p4" data-anchor="page4">
+		    		<div class="page_t"><div class="page_tt"></div></div>
+		    		<div class="boxc4">
+		    			<a href="javascript:void(0);" class="prev01"></a><a href="javascript:void(0);" class="next01"></a>
+		    			<div class="bd">
+			    			<ul class="clearfix">
+			    												 
+									<li><a href="info.php?class_id=103101"><img src="images/151488669800781800.jpg"></a></li>
+																 
+									<li><a href="info.php?class_id=103102"><img src="images/151488676677344400.jpg"></a></li>
+																 
+									<li><a href="info.php?class_id=103104"><img src="images/151488684443750500.jpg"></a></li>
+																 
+									<li><a href="info.php?class_id=103105"><img src="images/151488686169531600.jpg"></a></li>
+																 
+									<li><a href="info.php?class_id=103106"><img src="images/151488687397656700.jpg"></a></li>
+																 
+			    			</ul>
+		    			</div>
+		    		</div>
+		    		
+                    <div class="boxc4-01">
+                    	<div class="bd01">
+                            <div class="swiper-2">
+                                <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide"><a href="info.php?class_id=103101"><img src="images/151488669800781800.jpg" /></a></div>
+                                                                    <div class="swiper-slide"><a href="info.php?class_id=103102"><img src="images/151488676677344400.jpg" /></a></div>
+                                                                    <div class="swiper-slide"><a href="info.php?class_id=103104"><img src="images/151488684443750500.jpg" /></a></div>
+                                                                    <div class="swiper-slide"><a href="info.php?class_id=103105"><img src="images/151488686169531600.jpg" /></a></div>
+                                                                    <div class="swiper-slide"><a href="info.php?class_id=103106"><img src="images/151488687397656700.jpg" /></a></div>
+                                                                </div>
+                                <div class="next01"></div>
+		        				<div class="prev01"></div>
+                            </div>
+                            <script>
+                                var swiper = new Swiper('.swiper-2', {
+									nextButton: '.next01',
+									prevButton: '.prev01',
+									slidesPerView: 4,
+									paginationClickable: true,
+									spaceBetween: 30,
+									loop: false,
+									breakpoints: {
+										414: {
+											slidesPerView: 3,
+											spaceBetween: 20
+										},
+										320: {
+											slidesPerView: 2,
+											spaceBetween: 10
+										}
+									}
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <script>
+                    	$(".boxc4-01").width($(window).width());
+                    </script>
+		    	</div>
+		    	<div class="section p5" data-anchor="page5">
+		    		<div class="page_t"><div class="page_tt"></div></div>
+		    		<div class="boxc5">
+		    			<a href="javascript:void(0);" class="prev02"></a><a href="javascript:void(0);" class="next02"></a>
+		    			<div class="bd">
+		    				<ul class="clearfix">
+		    														 
+									<li>
+										<div class="li-t"><a href="display.php?id=357"><img src="images/152525719603838100.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=357">洽洽食品生产线技术改造及能源改造项目...</a></div>
+											<div class="li-b02">
+	2018年4月26日，洽洽食品股份有限公司组织召开...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=351"><img src="images/152453162354675500.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=351">哪家企业如此有魅力？竟然吸引了国际媒...</a></div>
+											<div class="li-b02">
+	美国最具影响力、发行量最大的
+
+
+	华文日报...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=352"><img src="images/152453337523425600.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=352">小包装里的大营销，3亿包洽洽瓜子暗藏...</a></div>
+											<div class="li-b02">
+	 
+
+
+	听说嗑了洽洽瓜子
+
+
+	就有...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=350"><img src="images/152447611624206900.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=350">中国坚果炒货食品展在肥开幕,洽洽核心...</a></div>
+											<div class="li-b02">
+	 
+
+
+	
+
+
+	2018年第十二届中...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=349"><img src="images/152352616712500500.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=349">洽逢最美四月天，千人樱花跑high爆...</a></div>
+											<div class="li-b02">
+	
+
+
+	春光浪漫时，总有人在背后为春天做嫁衣...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=348"><img src="images/152056770657813000.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=348">洽洽用陪伴营销，一路伴你回家...</a></div>
+											<div class="li-b02">
+	每年春节营销大战，各品牌必然使出浑身解数，充分挖掘...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=347"><img src="images/151995916413282000.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=347">高铁上洽洽新年文案扎心了，家人唯一的...</a></div>
+											<div class="li-b02">
+	除夕将至，正在坐高铁回家的你，不知道有没有注意到洽...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=346"><img src="images/151936379207813000.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=346">全世界的摩天大楼都为洽洽点亮   “...</a></div>
+											<div class="li-b02">
+	世界瞩目中国，中国拥抱世界，随着2018新年钟声的...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=345"><img src="images/151834081520703600.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=345">一起用声音传递温度，让孩子们温暖过年...</a></div>
+											<div class="li-b02">
+	在阖家团圆、其乐融融的春节，当你开心地和家人一起聊...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=344"><img src="images/151779330944922400.png" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=344">玩转内容娱乐营销，洽洽的陪伴让年味更...</a></div>
+											<div class="li-b02">
+	随着消费升级浪潮的涌现，娱乐行业被推到了高处，全民...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=343"><img src="images/151779330080078600.png" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=343">洽洽流量级霸屏广告，360°突围春节...</a></div>
+											<div class="li-b02">
+	洽洽近年在品牌营销上一直不断寻求突破，今年更是扩大...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=340"><img src="images/151729441680078600.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=340">洽洽征集陪伴UGC文案搬进了高铁，将...</a></div>
+											<div class="li-b02">
+	临近春节，各大品牌相继吹响了新春季的传播号角。其中...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=339"><img src="images/151677043322266200.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=339">​洽洽食品荣获“首届中国卓越IR最佳...</a></div>
+											<div class="li-b02">
+	洽洽食品荣获首届中国卓越IR颁奖盛典“首届中国卓越...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=338"><img src="images/151661202599609800.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=338">洽洽年味小馆，不一样的新春之旅...</a></div>
+											<div class="li-b02">
+	春运时期的绿皮车，对年幼的我来说，是最有仪式感。火...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																	 
+									<li>
+										<div class="li-t"><a href="display.php?id=337"><img src="images/151652231712109800.jpg" width="250" height="174" /></a></div>
+										<div class="li-b">
+											<div class="li-b01"><a href="display.php?id=337">洽洽食品荣获国家科技进步二等奖...</a></div>
+											<div class="li-b02">
+	2018年1月8日，一年一度的国家科学技术奖励大会...</div>
+										</div>
+										<div class="li-f"></div>
+									</li>
+																
+		    					<!--<script>
+                                	window.onload=function(){
+										$(".p5 .bd li").find(".li-b").height($(".p5 .bd li").eq(0).find(".li-b").height());
+										}
+                                </script>-->
+								
+		    				</ul>
+		    			</div>
+		    		</div>
+		    		<script type="text/javascript">
+		    			jQuery(".boxc5").slide({mainCell:".bd ul",prevCell:".prev02",nextCell:".next02",effect:"left",autoPlay:true,autoPage:true,vis:3});
+		    		</script>
+                    <div class="boxc5-01">
+                        <div class="boxc5-bd">
+                            <div class="swiper-3">
+                                <div class="swiper-wrapper">
+                                   
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=357"><img src="images/152525719603838100.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=357">洽洽食品生产线技术改造及能源改造项目...</a></div>
+                                                <div class="li-b02">
+	2018年4月26日，洽洽食品股份有限公司组织召开...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=351"><img src="images/152453162354675500.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=351">哪家企业如此有魅力？竟然吸引了国际媒...</a></div>
+                                                <div class="li-b02">
+	美国最具影响力、发行量最大的
+
+
+	华文日报...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=352"><img src="images/152453337523425600.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=352">小包装里的大营销，3亿包洽洽瓜子暗藏...</a></div>
+                                                <div class="li-b02">
+	 
+
+
+	听说嗑了洽洽瓜子
+
+
+	就有...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=350"><img src="images/152447611624206900.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=350">中国坚果炒货食品展在肥开幕,洽洽核心...</a></div>
+                                                <div class="li-b02">
+	 
+
+
+	
+
+
+	2018年第十二届中...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=349"><img src="images/152352616712500500.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=349">洽逢最美四月天，千人樱花跑high爆...</a></div>
+                                                <div class="li-b02">
+	
+
+
+	春光浪漫时，总有人在背后为春天做嫁衣...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=348"><img src="images/152056770657813000.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=348">洽洽用陪伴营销，一路伴你回家...</a></div>
+                                                <div class="li-b02">
+	每年春节营销大战，各品牌必然使出浑身解数，充分挖掘...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=347"><img src="images/151995916413282000.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=347">高铁上洽洽新年文案扎心了，家人唯一的...</a></div>
+                                                <div class="li-b02">
+	除夕将至，正在坐高铁回家的你，不知道有没有注意到洽...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=346"><img src="images/151936379207813000.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=346">全世界的摩天大楼都为洽洽点亮   “...</a></div>
+                                                <div class="li-b02">
+	世界瞩目中国，中国拥抱世界，随着2018新年钟声的...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=345"><img src="images/151834081520703600.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=345">一起用声音传递温度，让孩子们温暖过年...</a></div>
+                                                <div class="li-b02">
+	在阖家团圆、其乐融融的春节，当你开心地和家人一起聊...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=344"><img src="images/151779330944922400.png" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=344">玩转内容娱乐营销，洽洽的陪伴让年味更...</a></div>
+                                                <div class="li-b02">
+	随着消费升级浪潮的涌现，娱乐行业被推到了高处，全民...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=343"><img src="images/151779330080078600.png" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=343">洽洽流量级霸屏广告，360°突围春节...</a></div>
+                                                <div class="li-b02">
+	洽洽近年在品牌营销上一直不断寻求突破，今年更是扩大...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=340"><img src="images/151729441680078600.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=340">洽洽征集陪伴UGC文案搬进了高铁，将...</a></div>
+                                                <div class="li-b02">
+	临近春节，各大品牌相继吹响了新春季的传播号角。其中...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=339"><img src="images/151677043322266200.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=339">​洽洽食品荣获“首届中国卓越IR最佳...</a></div>
+                                                <div class="li-b02">
+	洽洽食品荣获首届中国卓越IR颁奖盛典“首届中国卓越...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=338"><img src="images/151661202599609800.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=338">洽洽年味小馆，不一样的新春之旅...</a></div>
+                                                <div class="li-b02">
+	春运时期的绿皮车，对年幼的我来说，是最有仪式感。火...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                                             
+                                        <div class="swiper-slide">
+                                            <div class="li-t"><a href="display.php?id=337"><img src="images/151652231712109800.jpg" /></a></div>
+                                            <div class="li-b">
+                                                <div class="li-b01"><a href="display.php?id=337">洽洽食品荣获国家科技进步二等奖...</a></div>
+                                                <div class="li-b02">
+	2018年1月8日，一年一度的国家科学技术奖励大会...</div>
+                                            </div>
+                                            <div class="li-f"></div>
+                                        </div>
+                                                     
+                                </div>
+                                <div class="next02"></div>
+                                <div class="prev02"></div>
+                            </div>
+                            <script>
+                            var swiper1 = new Swiper('.swiper-3', {
+                                nextButton: '.next02',
+                                prevButton: '.prev02',
+                                slidesPerView: 3,
+                                paginationClickable: true,
+                                spaceBetween: 30,
+                                loop: false,
+								autoHeight:true,
+                                breakpoints: {
+                                    414: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 20
+                                    }
+                                }
+                            });
+                            </script>
+                        </div>
+                    </div>
+                    <script>
+                    	$(".boxc5-01").width($(window).width());
+                    </script>
+                    <script type="text/javascript">
+						window.onload=function(){
+							jQuery(".boxc4").slide({mainCell:".bd ul",prevCell:".prev01",nextCell:".next01",effect:"leftLoop",autoPlay:true,autoPage:true,vis:4});
+							console.log($(".boxc5-bd").find(".swiper-slide").length);
+							for( var i=0;i<$(".boxc5-bd").find(".swiper-slide").length;i++){
+								var height05 = $(".boxc5-bd").find(".swiper-slide").eq(0).height();
+								if(height05<$(".boxc5-bd").find(".swiper-slide").eq(i).height()){
+									height05=$(".boxc5-bd").find(".swiper-slide").eq(i).height();
+								}
+							}
+							$(".boxc5-bd").find(".swiper-slide").height(height05);
+						}
+		    		</script>
+		    	</div>
+		    	<div class="section p6" data-anchor="page6">
+		    		<div class="page_t"><div class="page_tt"></div></div>
+		    		<div class="boxc6 clearfix">
+		    			<div class="sd">
+		    				<div class="sd-t">在线留言</div>
+		    				<div class="sd-b">
+		    					<form action="message.php" name="msg" method="post" onsubmit="return check(this);">
+		    						<input type="text" placeholder="姓名/Name" name="name">
+		    						<input type="text" placeholder="电话/Tel" name="phone">
+		    						<input type="text" placeholder="需求/Demand" name="content">
+		    						<input type="submit" value="提交" >
+		    					</form>
+		    				</div>
+		    			</div>
+		    			<div class="mm">
+		    				<div class="mm-t">
+		    					<div class="mm-t01">服务热线：<i>4008-877-819</i></div>
+		    					<div class="mm-t02">公司地址：安徽省合肥市经济技术开发区莲花路1307号</div>
+		    					<div class="mm-t03">公司邮箱：kefu@qiaqiafood.com</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div class="footer_home">
+						<div class="foot01 clearfix"><i>&copy;&nbsp;2018 洽洽食品股份有限公司 版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">皖ICP备09025925号</a></i><span> 网站设计制作：<a href="http://www.ibw.cn/" target="_blank">网新科技</a>（<a href="http://www.ibw.cn" target="_blank">www.ibw.cn</a>） </span></div>
+					</div>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+	
+
+	<div class="footer">
+		<div class="foot01 clearfix"><i>&copy;&nbsp;2018 洽洽食品股份有限公司 版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">皖ICP备09025925号</a></i><span> 网站设计制作：<a href="http://www.ibw.cn/" target="_blank">网新科技</a>（<a href="http://www.ibw.cn" target="_blank">www.ibw.cn</a>） </span></div>
+	</div>
+	<div class="u-mask hide"></div>
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			var height=$(window).height();
+			$(".banner .bd ul").css("height",height);
+			$(".banner .bd ul li a").css("height",height);
+		});
+	</script>
+    </div>
+<script>
+$(function(){
+	$('.u-menu').bind('click', function () {
+		$('body').addClass('z-open');
+		$('.head_sj').addClass('head_sj_l');
+		$('.u-mask').removeClass('hide');
+	})
+	$('.u-mask').bind('click', function () {
+		$('body').removeClass('z-open');
+		$('.head_sj').removeClass('head_sj_l');
+		$('body').removeClass('m-nav-show');
+		$('.u-mask').addClass('hide');
+		$('.m-menu').stop().animate({right:'-50%',opacity:0});
+	})
+	$('.box-isd .col').bind('click', function () {
+		$('body').toggleClass('m-nav-show');
+		$('.u-mask').removeClass('hide');
+		$('.m-menu').stop().animate({right:0,opacity:1});
+	})
+})
+</script>
+<script>
+ $.ajax({ url: 'hit_counter.php', data: { page: document.location.pathname } }) 
+</script>
+</body>
+</html>
